@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+}
+
+
+.App-link {
+  position: relative;
+  color: #61dafb;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.left{
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right{
+  width: 60%;
+  height: 100vh;
+  position: relative;
+  /* background-color: #61dafb; */
+}
+.right button{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 40px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  z-index: 999;
+  color: #fff;
+}
+.right iframe{
+  width: 99.9%;
+  margin-top: 70px;
+  height: 80%;
+  z-index: -1;
+  overflow: none;
+}
